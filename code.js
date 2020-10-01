@@ -3,6 +3,10 @@ function hello() {
     return "Hello, World!";
 }
 
-function sayHello(x) {
-    return "hello " + (x);
+function sayHello(name) {
+    if(typeof(name) == "boolean"){
+    return "hello world!";
+}   else{
+    return "hello " + (name);
+    }
 }
