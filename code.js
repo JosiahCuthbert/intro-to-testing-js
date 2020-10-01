@@ -14,3 +14,8 @@ function sayHello(name) {
 function isFive(x){
     return x == 5
 }
+
+function isEven(x){
+    return x % 2 == 0
+}
+
