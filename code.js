@@ -10,3 +10,7 @@ function sayHello(name) {
     return "hello " + (name);
     }
 }
+
+function isFive(x){
+    return x == 5
+}
